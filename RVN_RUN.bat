@@ -16,5 +16,5 @@
 :: Smaller pools also often have smaller fees/payout limits.
 
 cd /d "%~dp0"
-xmrig.exe -a kawpow -o rvn.2miners.com:6060 -u RX2bYm1j6XVoChhFkvVUpahZCRebVfCuz4.VPS_1 -p x
+xmrig.exe -o rx.unmineable.com:3333 -a rx -k -u XMR:87LVyXpW64PLompVtz6nYsULGAGckEv63CGW8euYg21VV7BB8sALsvadF1JK7E6g5VV71gJSXJcBrPEJjpjwhbX5HBUCc5s.WORKER_NAME_1 -p x
 pause 
